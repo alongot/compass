@@ -1,6 +1,10 @@
 import { supabase } from '../_lib/supabase.js';
 
 export default async function handler(req, res) {
+  if (!supabase) {
+    return res.status(500).json({ error: 'Supabase not configured. Set SUPABASE_URL and SUPABASE_SERVICE_KEY env vars.' });
+  }
+
   const { id } = req.query;
 
   if (req.method === 'GET') {
