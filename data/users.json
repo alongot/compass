@@ -1,0 +1,184 @@
+[
+  {
+    "id": "mlsqgsxewqg7c",
+    "firstName": "Hugo",
+    "lastName": "Simonet",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Economics B.A.",
+    "createdAt": "2026-02-19T00:39:06.098Z",
+    "transcript": {
+      "completed": [
+        {
+          "course": "ECON 1",
+          "grade": "A",
+          "units": 4,
+          "quarter": "Manual Entry"
+        },
+        {
+          "course": "ECON 2",
+          "grade": "A",
+          "units": 4
+        }
+      ],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": [
+        {
+          "course": "ECON 10A",
+          "units": 4
+        },
+        {
+          "course": "WRIT 2",
+          "units": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "mm02z63npjz39",
+    "firstName": "Rose",
+    "lastName": "Behrouzi",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Economics B.A.",
+    "createdAt": "2026-02-24T04:03:41.603Z",
+    "transcript": {
+      "completed": [
+        {
+          "course": "ECON 1",
+          "grade": "A+",
+          "units": 4
+        }
+      ],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": []
+    }
+  },
+  {
+    "id": "mm9rozeukrpzw",
+    "firstName": "Ben",
+    "lastName": "Jammin",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Statistics & Data Science B.S.",
+    "createdAt": "2026-03-02T22:45:32.358Z",
+    "transcript": {
+      "completed": [],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": [
+        {
+          "course": "PSTAT 10",
+          "units": 4
+        },
+        {
+          "course": "MATH 3A",
+          "units": 4
+        },
+        {
+          "course": "MATH 3B",
+          "units": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "mmcozt726pkh6",
+    "firstName": "Luke",
+    "lastName": "Carango",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Environmental Studies B.S.",
+    "createdAt": "2026-03-04T23:53:17.198Z",
+    "transcript": {
+      "completed": [],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": []
+    }
+  },
+  {
+    "id": "mmcprn3q9jxkd",
+    "firstName": "Steve",
+    "lastName": "Jobs",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Computer Science B.S.",
+    "createdAt": "2026-03-05T00:14:55.670Z",
+    "transcript": {
+      "completed": [],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": []
+    }
+  },
+  {
+    "id": "mmdz6zcz9063a",
+    "firstName": "alex",
+    "lastName": "muraviev",
+    "school": "University of California Santa Barbara (UCSB)",
+    "major": "Sociology B.A.",
+    "createdAt": "2026-03-05T21:26:34.115Z",
+    "transcript": {
+      "completed": [],
+      "failed": [],
+      "withdrawn": [],
+      "in_progress": []
+    }
+  },
+  {
+    "id": "mmjnmxrzje9ms",
+    "firstName": "ben",
+    "lastName": "neb",
+    "school": "Transfer Student",
+    "major": "",
+    "student_type": "transfer",
+    "source_institution_id": "260dd389-b1cd-44bc-88c6-66f046618bb9",
+    "target_major_id": "stats_bs",
+    "createdAt": "2026-03-09T20:49:40.223Z",
+    "transcript": {
+      "completed": [
+        {
+          "course": "MATH 3A",
+          "grade": "A",
+          "units": 4
+        },
+        {
+          "course": "MATH 3B",
+          "grade": "A",
+          "units": 4
+        }
+      ],
+      "in_progress": [
+        {
+          "course": "MATH 2A",
+          "units": 4
+        },
+        {
+          "course": "MATH 2B",
+          "units": 4
+        },
+        {
+          "course": "WRIT 2",
+          "units": 4
+        }
+      ],
+      "failed": [],
+      "withdrawn": []
+    }
+  },
+  {
+    "id": "mml62am3yd2l9",
+    "firstName": "Lady",
+    "lastName": "Gaga",
+    "school": "Transfer Student",
+    "major": "",
+    "student_type": "transfer",
+    "source_institution_id": "0bcd6114-e9dc-4b84-8a52-37e6c18e86d5",
+    "target_major_id": "cs_bs",
+    "createdAt": "2026-03-10T22:13:15.963Z",
+    "transcript": {
+      "completed": [],
+      "in_progress": [],
+      "failed": [],
+      "withdrawn": []
+    }
+  }
+]

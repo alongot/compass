@@ -1,0 +1,589 @@
+{
+  "_meta": {
+    "source": "UCSB 2024-2025 official major sheets and department websites",
+    "audit": "docs/MAJOR_REQUIREMENTS_AUDIT.md",
+    "note": "Prerequisites are direct prerequisites only (not transitive). prereqText is the raw catalog text for reference."
+  },
+  "econ_ba": {
+    "id": "econ_ba",
+    "name": "Economics B.A.",
+    "degree": "B.A.",
+    "department": "Economics",
+    "browseDeptCodes": ["ECON", "MATH"],
+    "sections": {
+      "preMajor": {
+        "name": "Pre-Major",
+        "description": "Min 2.85 UC GPA, no grade below C",
+        "courses": [
+          { "id": "ECON 1",  "name": "Principles of Microeconomics",  "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "ECON 2",  "name": "Principles of Macroeconomics",  "units": 5, "prereqs": ["ECON 1"], "prereqText": "Economics 1" },
+          { "id": "ECON 10A","name": "Intermediate Microeconomics",   "units": 5, "prereqs": ["ECON 1","ECON 2"], "prereqText": "Economics 1 and 2; Mathematics 34A-B, 2A-B, or 3A-B." }
+        ]
+      },
+      "preparationForMajor": {
+        "name": "Preparation for the Major",
+        "description": "Grade of C or better required; not counted in pre-major GPA",
+        "courses": [
+          { "id": "ECON 5",  "name": "Statistics for Economics and Business", "units": 5, "prereqs": ["MATH 3A"], "prereqText": "Math 34A-B or Math 2A-B or 3A-B" },
+          { "id": "MATH 3A", "name": "Calculus, First Course",                "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B", "name": "Calculus, Second Course",               "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better" }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required",
+        "courses": [
+          { "id": "ECON 100B","name": "Microeconomic Theory",    "units": 4, "prereqs": ["ECON 10A","ECON 5"], "prereqText": "Economics 10A or 100A; and Economics 5 or PSTAT 109 or PSTAT 120A." },
+          { "id": "ECON 101", "name": "Macroeconomic Theory",    "units": 4, "prereqs": ["ECON 10A","ECON 5"], "prereqText": "Economics 10A or 100A; and Economics 5 or PSTAT 109 or PSTAT 120A." },
+          { "id": "ECON 140A","name": "Introduction to Econometrics", "units": 4, "prereqs": ["ECON 10A","ECON 5"], "prereqText": "Economics 10A or 100A; and Economics 5 or PSTAT 109 or PSTAT 120A." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "required": 7,
+        "courses": [
+          { "id": "ECON 100C","name": "Econometrics III",          "units": 4, "prereqs": ["ECON 100B"], "prereqText": "Economics 100B" },
+          { "id": "ECON 134A","name": "Financial Management",      "units": 4, "prereqs": ["ECON 100B","ECON 140A"], "prereqText": "Economics 100B or 104B, and 140A." },
+          { "id": "ECON 136A","name": "Intermediate Accounting",   "units": 5, "prereqs": ["ECON 10A","ECON 5"], "prereqText": "Economics 3B; and Economics 10A or 100A; and Economics 5 or PSTAT 109 or PSTAT 120A." },
+          { "id": "ECON 145", "name": "Data Wrangling for Economists", "units": 4, "prereqs": ["ECON 100B"], "prereqText": "Economics 100B" },
+          { "id": "ECON 152", "name": "Personnel Economics",       "units": 4, "prereqs": ["ECON 100B"], "prereqText": "Economics 100B." },
+          { "id": "ECON 171", "name": "Game Theory",               "units": 4, "prereqs": ["ECON 100B"], "prereqText": "Economics 100B" },
+          { "id": "ECON 174", "name": "Economics of Information",  "units": 4, "prereqs": ["ECON 100B"], "prereqText": "Economics 100B" }
+        ]
+      }
+    }
+  },
+
+  "cs_bs": {
+    "id": "cs_bs",
+    "name": "Computer Science B.S.",
+    "degree": "B.S.",
+    "department": "Computer Science",
+    "browseDeptCodes": ["CMPSC", "MATH"],
+    "sections": {
+      "lowerDivMajorPrep": {
+        "name": "Lower-Division Major Preparation",
+        "description": "All required. Grade of C or better to take courses for which these are prerequisites.",
+        "courses": [
+          { "id": "CMPSC 16",  "name": "Problem Solving with Computers I",       "units": 4, "prereqs": [], "prereqText": "Mathematics 3A or 2A (may be taken concurrently), CS 8 or Engineering 3 or ECE 3, or significant prior programming experience." },
+          { "id": "CMPSC 24",  "name": "Problem Solving with Computers II",      "units": 4, "prereqs": ["CMPSC 16"], "prereqText": "Computer Science 16 with a grade of C or better." },
+          { "id": "CMPSC 32",  "name": "Object-Oriented Design",                 "units": 4, "prereqs": ["CMPSC 24"], "prereqText": "Computer Science 24 with a grade of C or better." },
+          { "id": "CMPSC 40",  "name": "Foundations of Computer Science",        "units": 5, "prereqs": ["CMPSC 16","MATH 4A"], "prereqText": "Computer Science 16 with a grade of C or better and Mathematics 4A with a grade of C or better." },
+          { "id": "CMPSC 64",  "name": "Computer Organization and Logic Design", "units": 4, "prereqs": ["CMPSC 16"], "prereqText": "Computer Science 16 with a grade of C or better; and Mathematics 3C or 4A with a grade of C or better." },
+          { "id": "MATH 3A",   "name": "Calculus, First Course",                 "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",   "name": "Calculus, Second Course",                "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "MATH 4A",   "name": "Linear Algebra with Applications",       "units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B or 2B with grade of C or better." },
+          { "id": "MATH 4B",   "name": "Differential Equations",                 "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 4A with grade of C or better." },
+          { "id": "MATH 6A",   "name": "Vector Calculus with Applications",      "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B with grade of C or better." },
+          { "id": "PSTAT 120A","name": "Probability and Statistics",             "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 3C or 4A or 4AI or 6A or 6AI completed with a minimum grade of C or better." }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required",
+        "courses": [
+          { "id": "CMPSC 130A","name": "Data Structures and Algorithms I",  "units": 4, "prereqs": ["CMPSC 40","CMPSC 24","PSTAT 120A"], "prereqText": "CMPSC 40 or MATH 8 with grade of C or better; CMPSC 24 or CMPSC 9; PSTAT 120A or ECE 139 (may be concurrent)." },
+          { "id": "CMPSC 130B","name": "Data Structures and Algorithms II", "units": 4, "prereqs": ["CMPSC 130A"], "prereqText": "Computer Science 130A." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "description": "28-32 units of approved upper-division CS or related courses",
+        "required": 7,
+        "courses": [
+          { "id": "CMPSC 138", "name": "Automata and Formal Languages",   "units": 4, "prereqs": ["CMPSC 40"], "prereqText": "Computer Science 40 or Math 8; open to CS and CE majors." },
+          { "id": "CMPSC 148", "name": "CS Project",                      "units": 4, "prereqs": ["CMPSC 32"], "prereqText": "Computer Science 32 with a grade of C or better; open to Computer Science majors only." },
+          { "id": "CMPSC 162", "name": "Programming Languages",           "units": 4, "prereqs": ["CMPSC 130A","CMPSC 138"], "prereqText": "Computer Science 130A and 138; open to CS and CE majors only." },
+          { "id": "CMPSC 165A","name": "Artificial Intelligence",         "units": 4, "prereqs": ["CMPSC 130A"], "prereqText": "CMPSC 130A; open to CS and CE majors." },
+          { "id": "CMPSC 168", "name": "Internet Applications",           "units": 4, "prereqs": ["CMPSC 130A"], "prereqText": "CMPSC 130A; open to CS and CE majors." },
+          { "id": "CMPSC 174", "name": "Web Development",                 "units": 4, "prereqs": ["CMPSC 32"], "prereqText": "CMPSC 32; open to CS and CE majors." },
+          { "id": "CMPSC 176A","name": "Introduction to Computer Security","units": 4, "prereqs": ["CMPSC 32","PSTAT 120A"], "prereqText": "CMPSC 32 with grade of C or better; PSTAT 120A or ECE 139; open to CS, EE, and CE majors only." }
+        ]
+      }
+    }
+  },
+
+  "bio_bs": {
+    "id": "bio_bs",
+    "name": "Biological Sciences B.S.",
+    "degree": "B.S.",
+    "department": "Ecology, Evolution, and Marine Biology / MCDB",
+    "browseDeptCodes": ["EEMB", "MCDB", "CHEM"],
+    "sections": {
+      "preparationForMajor": {
+        "name": "Preparation for the Major",
+        "description": "Min 2.0 UC GPA required for major admission",
+        "courses": [
+          { "id": "CHEM 1A",  "name": "General Chemistry",                        "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1B",  "name": "General Chemistry",                        "units": 3, "prereqs": ["CHEM 1A"], "prereqText": "CHEM 1A, 2A, or 3A with minimum grade of C-." },
+          { "id": "CHEM 1C",  "name": "General Chemistry",                        "units": 3, "prereqs": ["CHEM 1B"], "prereqText": "CHEM 1B, 2B, or 3B with minimum grade of C-." },
+          { "id": "MCDB 1A",  "name": "Molecules, Cells, and Organisms I",        "units": 4, "prereqs": ["CHEM 1A"], "prereqText": "Chemistry 1A-B-C with grade of C- or better (1C may be concurrent)." },
+          { "id": "MCDB 1B",  "name": "Molecules, Cells, and Organisms II",       "units": 4, "prereqs": ["MCDB 1A"], "prereqText": "MCDB 1A and Chemistry 1A-B-C with grade of C- or better; or MCDB 1A with grade of C or better." },
+          { "id": "EEMB 2",   "name": "Introduction to Ecology and Evolution",    "units": 3, "prereqs": ["MCDB 1A"], "prereqText": "MCDB 1A with grade of C- or better." },
+          { "id": "EEMB 3",   "name": "Survey of Biodiversity",                  "units": 3, "prereqs": ["MCDB 1A","MCDB 1B","EEMB 2"], "prereqText": "MCDB 1A, MCDB 1B, and EEMB 2 lecture courses with grade of C- or better." },
+          { "id": "CHEM 109A","name": "Organic Chemistry I",                      "units": 4, "prereqs": ["CHEM 1C"], "prereqText": "Chemistry 1C or 2C or 3C with minimum grade of C-; or Chemistry 1B or 2B or 3B with minimum grade of B-." },
+          { "id": "CHEM 109B","name": "Organic Chemistry II",                     "units": 4, "prereqs": ["CHEM 109A"], "prereqText": "Chemistry 130A, 109A or 109AH with minimum grade of C-." },
+          { "id": "MATH 3A",  "name": "Calculus, First Course",                  "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",  "name": "Calculus, Second Course",                 "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Major (48 units from subject area pools)",
+        "description": "Students choose 48 upper-division units from approved subject areas. No fixed required courses.",
+        "required": 12,
+        "courses": [
+          { "id": "EEMB 101", "name": "Molecular Evolution",          "units": 4, "prereqs": ["EEMB 2"], "prereqText": "EEMB 2 or MCDB 1A or Geology 3 with grade of C- or better." },
+          { "id": "EEMB 102", "name": "Macroevolution",               "units": 4, "prereqs": ["EEMB 2"], "prereqText": "EEMB 2 or MCDB 1A or EARTH 3 with grade of C- or better." },
+          { "id": "EEMB 112", "name": "Ethology",                     "units": 4, "prereqs": ["EEMB 2"], "prereqText": "EEMB 2 or MCDB 1A." },
+          { "id": "EEMB 120", "name": "Marine Ecology",               "units": 4, "prereqs": ["EEMB 2"], "prereqText": "EEMB 2 or MCDB 1A." },
+          { "id": "EEMB 127", "name": "Plant Biodiversity",           "units": 4, "prereqs": ["MCDB 1A","MCDB 1B","EEMB 2","EEMB 3"], "prereqText": "MCDB 1A, MCDB 1B, EEMB 2 and EEMB 3 with grade of C- or better." },
+          { "id": "EEMB 136", "name": "Behavioral Ecology",           "units": 4, "prereqs": ["EEMB 2"], "prereqText": "EEMB 2 or MCDB 1A." },
+          { "id": "EEMB 148", "name": "Stream Ecology",               "units": 4, "prereqs": ["MCDB 1A","EEMB 2","MCDB 1B","EEMB 3"], "prereqText": "MCDB 1A, EEMB 2 and MCDB 1B, and EEMB 3 with grade of C- or better." },
+          { "id": "MCDB 103", "name": "Cell Biology",                 "units": 4, "prereqs": ["MCDB 1A","CHEM 109A"], "prereqText": "MCDB 1A and Chemistry 109A or 130A." },
+          { "id": "MCDB 108A","name": "Biochemistry",                 "units": 4, "prereqs": ["MCDB 1A","CHEM 109A"], "prereqText": "MCDB 1A; Chemistry 109A-B or 130A-B." },
+          { "id": "MCDB 110", "name": "Principles of Biochemistry",   "units": 4, "prereqs": ["CHEM 109A","CHEM 109B"], "prereqText": "Chemistry 1A-B-C; and Chemistry 109A-B with grade of C or better." },
+          { "id": "MCDB 134", "name": "Molecular Biology",            "units": 4, "prereqs": ["MCDB 1A","MCDB 1B"], "prereqText": "MCDB 1A and MCDB 1B." }
+        ]
+      }
+    }
+  },
+
+  "comm_ba": {
+    "id": "comm_ba",
+    "name": "Communication B.A.",
+    "degree": "B.A.",
+    "department": "Communication",
+    "browseDeptCodes": ["COMM"],
+    "sections": {
+      "preMajor": {
+        "name": "Pre-Major",
+        "description": "All 4 required. Min 3.00 UC GPA, no grade below C-. Required for major admission.",
+        "courses": [
+          { "id": "COMM 1",  "name": "Introduction to Communication",         "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "COMM 87", "name": "Statistics for Communication Research", "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "COMM 88", "name": "Research Methods in Communication",     "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "COMM 89", "name": "Theories of Communication",             "units": 5, "prereqs": [], "prereqText": null }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "description": "40 units of upper-division COMM courses required. No specific courses mandated.",
+        "required": 10,
+        "courses": [
+          { "id": "COMM 100","name": "Advanced Research Methods",     "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 105","name": "Media and Society",             "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 107","name": "Health Communication",         "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 108","name": "Rhetoric and Public Discourse", "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 113","name": "Digital Media",                "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 115","name": "Media Effects",                "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 120","name": "Persuasion",                   "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 125","name": "Media Industries",             "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 130","name": "Political Communication",      "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." },
+          { "id": "COMM 148","name": "Intercultural Communication",  "units": 4, "prereqs": ["COMM 1"], "prereqText": "Upper-division standing." }
+        ]
+      }
+    }
+  },
+
+  "soc_ba": {
+    "id": "soc_ba",
+    "name": "Sociology B.A.",
+    "degree": "B.A.",
+    "department": "Sociology",
+    "browseDeptCodes": ["SOC"],
+    "sections": {
+      "preMajor": {
+        "name": "Pre-Major",
+        "description": "Min 2.3 UC GPA, grade of C- or higher required",
+        "courses": [
+          { "id": "SOC 1",  "name": "Introduction to Sociology", "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "SOC 10", "name": "Logics of Inquiry",         "units": 5, "prereqs": [], "prereqText": null }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required",
+        "description": "One course from each category required",
+        "courses": [
+          { "id": "SOC 108",  "name": "Methods of Research",           "units": 4, "prereqs": ["SOC 1","SOC 10"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 185A", "name": "Development of Social Thought", "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "description": "Choose from inequality, subject area depth, and breadth categories",
+        "required": 8,
+        "courses": [
+          { "id": "SOC 122", "name": "Race and Ethnicity",         "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 128", "name": "Social Stratification",      "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 130", "name": "Sociology of Race",          "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 131", "name": "Political Sociology",        "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 134", "name": "Work and Organizations",     "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 144", "name": "Urban Sociology",            "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 153", "name": "Sociology of Culture",       "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." },
+          { "id": "SOC 155", "name": "Sociology of Gender",        "units": 4, "prereqs": ["SOC 1"], "prereqText": "Upper-division standing." }
+        ]
+      }
+    }
+  },
+
+  "psych_bs": {
+    "id": "psych_bs",
+    "name": "Psychological and Brain Sciences B.S.",
+    "degree": "B.S.",
+    "department": "Psychological and Brain Sciences",
+    "browseDeptCodes": ["PSY"],
+    "sections": {
+      "areaI": {
+        "name": "Area I — Pre-Major (Part 1)",
+        "description": "Min 2.7 UC GPA required for major admission",
+        "courses": [
+          { "id": "PSY 1",    "name": "Introduction to Psychology",          "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3A",  "name": "Calculus, First Course",              "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "PSTAT 5A", "name": "Understanding Data",                  "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "PSY 10A",  "name": "Research Methods in Psych and Brain", "units": 5, "prereqs": ["PSY 1","PSTAT 5A","MATH 3A"], "prereqText": "Psychology 1 (C- min); PSTAT 5A, 5LS, or COMM 87 (C- min); Math 3A, 34A, or 2A (C- min); Chem 1A-B or 2A-B." },
+          { "id": "PSY 10B",  "name": "Statistical Methods in Psych and Brain", "units": 5, "prereqs": ["PSY 10A"], "prereqText": "Psychology 10A with minimum grade of C-." }
+        ]
+      },
+      "areaII": {
+        "name": "Area II — Pre-Major (Part 2)",
+        "description": "Min 2.0 UC GPA required for major admission",
+        "courses": [
+          { "id": "CHEM 1A",  "name": "General Chemistry I",     "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1B",  "name": "General Chemistry II",    "units": 3, "prereqs": ["CHEM 1A"], "prereqText": "CHEM 1A with minimum grade of C-." },
+          { "id": "MCDB 1A",  "name": "Molecules, Cells, and Organisms I", "units": 4, "prereqs": ["CHEM 1A"], "prereqText": "Chemistry 1A-B-C with grade of C- or better (1C may be concurrent)." }
+        ]
+      },
+      "areaIII": {
+        "name": "Area III — Preparation for the Major",
+        "description": "4 courses from approved interdisciplinary list",
+        "courses": []
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Breadth (Required)",
+        "courses": [
+          { "id": "PSY 102", "name": "Introduction to Social Psychology",     "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 105", "name": "Introduction to Developmental Psych",  "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 106", "name": "Introduction to Biopsychology",        "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 108", "name": "Introduction to Cognitive Psychology", "units": 4, "prereqs": ["PSY 1"], "prereqText": null }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives (PSY 110-195)",
+        "description": "16+ additional units from PSY 110-195, labs, or research",
+        "required": 4,
+        "courses": [
+          { "id": "PSY 103", "name": "Sensation and Perception",   "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 111", "name": "Biological Psychology",      "units": 4, "prereqs": ["PSY 106"], "prereqText": "PSY 106 or upper-division standing." },
+          { "id": "PSY 120", "name": "Consciousness and Cognition","units": 4, "prereqs": ["PSY 108"], "prereqText": "PSY 108; open to PBS, Biopsychology, Pharmacology, and Interdisciplinary Studies majors only." },
+          { "id": "PSY 125", "name": "Personality Psychology",     "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 131", "name": "Stress and Health",          "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 140", "name": "Cultural Psychology",        "units": 4, "prereqs": ["PSY 1"], "prereqText": "PSY 1 or upper-division standing." },
+          { "id": "PSY 150", "name": "Psychology of Language",     "units": 4, "prereqs": ["PSY 108"], "prereqText": "PSY 108 or upper-division standing." }
+        ]
+      }
+    }
+  },
+
+  "chem_bs": {
+    "id": "chem_bs",
+    "name": "Chemistry B.S.",
+    "degree": "B.S.",
+    "department": "Chemistry and Biochemistry",
+    "browseDeptCodes": ["CHEM", "MATH"],
+    "sections": {
+      "preparationForMajor": {
+        "name": "Preparation for the Major (Area I)",
+        "description": "Min 2.0 GPA in each of 6 course sequences required for major admission",
+        "courses": [
+          { "id": "CHEM 1A",   "name": "General Chemistry I",            "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1B",   "name": "General Chemistry II",           "units": 3, "prereqs": ["CHEM 1A"], "prereqText": "CHEM 1A, 2A, or 3A with minimum grade of C-." },
+          { "id": "CHEM 1C",   "name": "General Chemistry III",          "units": 3, "prereqs": ["CHEM 1B"], "prereqText": "CHEM 1B, 2B, or 3B with minimum grade of C-." },
+          { "id": "CHEM 109A", "name": "Organic Chemistry I",            "units": 4, "prereqs": ["CHEM 1C"], "prereqText": "Chemistry 1C or 2C or 3C with minimum grade of C-." },
+          { "id": "CHEM 109B", "name": "Organic Chemistry II",           "units": 4, "prereqs": ["CHEM 109A"], "prereqText": "Chemistry 130A, 109A or 109AH with minimum grade of C-." },
+          { "id": "CHEM 6AL",  "name": "Organic Chemistry Lab I",        "units": 3, "prereqs": ["CHEM 109A","CHEM 109B"], "prereqText": "Chemistry labs 1AL/1BL/1CL; 109A (C- min); 109B (may be concurrent)." },
+          { "id": "CHEM 6BL",  "name": "Organic Chemistry Lab II",       "units": 3, "prereqs": ["CHEM 6AL","CHEM 109A"], "prereqText": "Chemistry 6AL and 109A with minimum grade of C-; 130B may be concurrent." },
+          { "id": "MATH 3A",   "name": "Calculus, First Course",         "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",   "name": "Calculus, Second Course",        "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "MATH 4A",   "name": "Linear Algebra with Applications","units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B or 2B with grade of C or better." },
+          { "id": "MATH 4B",   "name": "Differential Equations",         "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 4A with grade of C or better." },
+          { "id": "MATH 6A",   "name": "Vector Calculus with Applications","units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B with grade of C or better." },
+          { "id": "PHYS 7A",   "name": "Physics: Mechanics and Thermodynamics", "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A (may be concurrent)." },
+          { "id": "PHYS 7B",   "name": "Physics: Waves, Optics, E&M",   "units": 4, "prereqs": ["PHYS 7A","MATH 3B"], "prereqText": "Physics 7A; Math 3B (may be concurrent)." },
+          { "id": "PHYS 7C",   "name": "Physics: Electricity and Magnetism", "units": 4, "prereqs": ["PHYS 7B","MATH 4A"], "prereqText": "Physics 7B; Math 4A (may be concurrent)." },
+          { "id": "PHYS 7L",   "name": "Physics Lab",                   "units": 1, "prereqs": ["PHYS 7C"], "prereqText": "Physics 7C (may be concurrent)." }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required (~45 units)",
+        "courses": [
+          { "id": "CHEM 113A", "name": "Physical Chemistry I",           "units": 4, "prereqs": ["CHEM 1C","MATH 4B","PHYS 7C"], "prereqText": "Chem 1A-B-C; Math 4A; Physics 7A-B-C; Math 6A recommended." },
+          { "id": "CHEM 113B", "name": "Physical Chemistry II",          "units": 4, "prereqs": ["CHEM 113A","MATH 4A"], "prereqText": "Chemistry 113A or Chemical Engineering 110A-B; Math 4A." },
+          { "id": "CHEM 113C", "name": "Physical Chemistry III",         "units": 4, "prereqs": ["CHEM 113B"], "prereqText": "Chemistry 113B." },
+          { "id": "CHEM 116AL","name": "Physical Chemistry Lab I",       "units": 3, "prereqs": ["CHEM 150","CHEM 113B"], "prereqText": "Chemistry 150; Chemistry 113B (may be concurrent)." },
+          { "id": "CHEM 116BL","name": "Physical Chemistry Lab II",      "units": 3, "prereqs": ["CHEM 116AL"], "prereqText": "Chemistry 116AL." },
+          { "id": "CHEM 116CL","name": "Physical Chemistry Lab III",     "units": 3, "prereqs": ["CHEM 116BL"], "prereqText": "Chemistry 116BL." },
+          { "id": "CHEM 142A", "name": "Advanced Inorganic Chemistry",   "units": 4, "prereqs": ["CHEM 113A"], "prereqText": "Chemistry 113A or Chemistry 112A." },
+          { "id": "CHEM 150",  "name": "Advanced Organic Chemistry",     "units": 4, "prereqs": ["CHEM 109B","CHEM 6BL"], "prereqText": "Chemistry 109B or 130B; Chemistry 6BL." },
+          { "id": "CHEM 173A", "name": "Advanced Analytical Chemistry I","units": 4, "prereqs": ["CHEM 113A"], "prereqText": "Chemistry 113A-B-C, or Chemistry 112A-B-C." },
+          { "id": "CHEM 173B", "name": "Advanced Analytical Chemistry II","units": 3, "prereqs": ["CHEM 173A"], "prereqText": "Chemistry 173A." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "required": 3,
+        "courses": [
+          { "id": "CHEM 120A", "name": "Biochemistry I",           "units": 4, "prereqs": ["CHEM 109A","CHEM 109B"], "prereqText": "Chemistry 109A-B or 130A-B." },
+          { "id": "CHEM 120B", "name": "Biochemistry II",          "units": 4, "prereqs": ["CHEM 120A"], "prereqText": "Chemistry 120A." },
+          { "id": "CHEM 130A", "name": "Organic Chemistry I (alt)","units": 4, "prereqs": ["CHEM 1C"], "prereqText": "Chemistry 1C or 2C or 3C; equivalent to CHEM 109A." },
+          { "id": "CHEM 130B", "name": "Organic Chemistry II (alt)","units": 4, "prereqs": ["CHEM 130A"], "prereqText": "Chemistry 130A, 109A or 109AH with minimum grade of C-." }
+        ]
+      }
+    }
+  },
+
+  "me_bs": {
+    "id": "me_bs",
+    "name": "Mechanical Engineering B.S.",
+    "degree": "B.S.",
+    "department": "Mechanical Engineering",
+    "browseDeptCodes": ["ME", "MATH"],
+    "sections": {
+      "firstYear": {
+        "name": "First Year — Lower Division",
+        "courses": [
+          { "id": "MATH 3A",  "name": "Calculus, First Course",              "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",  "name": "Calculus, Second Course",             "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "MATH 4A",  "name": "Linear Algebra with Applications",    "units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B with grade of C or better." },
+          { "id": "CHEM 1A",  "name": "General Chemistry I",                "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1B",  "name": "General Chemistry II",               "units": 3, "prereqs": ["CHEM 1A"], "prereqText": "CHEM 1A with minimum grade of C-." },
+          { "id": "PHYS 7A",  "name": "Physics: Mechanics and Thermodynamics", "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A (may be concurrent)." },
+          { "id": "PHYS 7B",  "name": "Physics: Waves, Optics, E&M",        "units": 4, "prereqs": ["PHYS 7A","MATH 3B"], "prereqText": "Physics 7A; Math 3B (may be concurrent)." },
+          { "id": "ME 10",    "name": "Introduction to Engineering",         "units": 4, "prereqs": [], "prereqText": "Open to mechanical engineering majors only." },
+          { "id": "ME 12S",   "name": "Introduction to Machine Shop",        "units": 1, "prereqs": [], "prereqText": "Mechanical engineering majors only." },
+          { "id": "ENGR 3",   "name": "Technical Communication",             "units": 3, "prereqs": [], "prereqText": null }
+        ]
+      },
+      "secondYear": {
+        "name": "Second Year — Lower Division",
+        "courses": [
+          { "id": "MATH 4B",  "name": "Differential Equations",             "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 4A with grade of C or better." },
+          { "id": "MATH 6A",  "name": "Vector Calculus with Applications",  "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B with grade of C or better." },
+          { "id": "MATH 6B",  "name": "Linear Algebra and ODEs",            "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B." },
+          { "id": "PHYS 7C",  "name": "Physics: Electricity and Magnetism", "units": 4, "prereqs": ["PHYS 7B","MATH 4A"], "prereqText": "Physics 7B; Math 4A (may be concurrent)." },
+          { "id": "PHYS 7L",  "name": "Physics Lab",                        "units": 1, "prereqs": ["PHYS 7C"], "prereqText": "Physics 7C (may be concurrent)." },
+          { "id": "ME 6",     "name": "Electrical and Electronic Circuits", "units": 4, "prereqs": ["PHYS 7B","MATH 4A"], "prereqText": "Physics 7B; Mathematics 4A or 3C; open to ME majors only." },
+          { "id": "ME 14",    "name": "Statics",                            "units": 4, "prereqs": ["PHYS 7A","MATH 3B"], "prereqText": "Physics 7A; Math 3B." },
+          { "id": "ME 15",    "name": "Strength of Materials",              "units": 4, "prereqs": ["ME 14"], "prereqText": "ME 14 with minimum grade of C-; open to ME majors only." },
+          { "id": "ME 16",    "name": "Engineering Dynamics",               "units": 4, "prereqs": ["ME 14"], "prereqText": "ME 14; open to ME majors only." },
+          { "id": "ME 17",    "name": "Engineering Thermodynamics I",       "units": 3, "prereqs": ["PHYS 7A","MATH 3B"], "prereqText": "Physics 7A; Math 3B." }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Third and Fourth Year — Upper Division Required",
+        "courses": [
+          { "id": "ME 103",   "name": "Advanced Thermodynamics and Fluid Mechanics", "units": 4, "prereqs": ["ME 17","MATH 4B"], "prereqText": "ME 17; Math 4B." },
+          { "id": "ME 104",   "name": "Engineering Measurements (Lab)",    "units": 4, "prereqs": ["ME 15","ME 16"], "prereqText": "ME 15; ME 16." },
+          { "id": "ME 107",   "name": "Heat Transfer",                     "units": 3, "prereqs": ["ME 103"], "prereqText": "ME 103." },
+          { "id": "ME 108",   "name": "Applied Finite Element Analysis",   "units": 3, "prereqs": ["ME 14","ME 15"], "prereqText": "ME 14; ME 15." },
+          { "id": "ME 151A",  "name": "Thermosciences I",                  "units": 4, "prereqs": ["ME 17","MATH 6A"], "prereqText": "ME 17; Math 6A." },
+          { "id": "ME 151B",  "name": "Thermosciences II",                 "units": 4, "prereqs": ["ME 151A","ME 152A"], "prereqText": "ME 151A and ME 152A." },
+          { "id": "ME 152A",  "name": "Fluid Mechanics",                   "units": 4, "prereqs": ["ME 17","MATH 6A"], "prereqText": "ME 17; Math 6A." },
+          { "id": "ME 153",   "name": "Mechanical Design",                 "units": 3, "prereqs": ["ME 15","ME 16"], "prereqText": "ME 15; ME 16." },
+          { "id": "MATRL 101","name": "Materials Science I",               "units": 3, "prereqs": ["CHEM 1A","PHYS 7A"], "prereqText": "Chemistry 1A; Physics 7A." },
+          { "id": "ME 105",   "name": "Laboratory Methods II",             "units": 4, "prereqs": ["ME 104"], "prereqText": "ME 104." },
+          { "id": "ME 156A",  "name": "Product Engineering",               "units": 3, "prereqs": ["ME 153"], "prereqText": "ME 153; open to ME majors only." },
+          { "id": "ME 156B",  "name": "Mechanical Engineering Design II",  "units": 3, "prereqs": ["ME 156A"], "prereqText": "ME 156A. Open to ME majors only." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives / Specialization",
+        "description": "Includes 2 specialization courses + 3 engineering electives",
+        "required": 5,
+        "courses": [
+          { "id": "ME 154",   "name": "Control Systems",                   "units": 3, "prereqs": ["ME 151A"], "prereqText": "ME 151A." },
+          { "id": "ME 157",   "name": "Robotics",                          "units": 3, "prereqs": ["ME 151A"], "prereqText": "ME 151A." },
+          { "id": "ME 167",   "name": "Computational Fluid Dynamics",      "units": 3, "prereqs": ["ME 152A"], "prereqText": "ME 152A." }
+        ]
+      }
+    }
+  },
+
+  "ee_bs": {
+    "id": "ee_bs",
+    "name": "Electrical Engineering B.S.",
+    "degree": "B.S.",
+    "department": "Electrical and Computer Engineering",
+    "browseDeptCodes": ["ECE", "MATH"],
+    "sections": {
+      "lowerDivRequired": {
+        "name": "Lower Division Required",
+        "courses": [
+          { "id": "MATH 3A",   "name": "Calculus, First Course",              "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",   "name": "Calculus, Second Course",             "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "MATH 4A",   "name": "Linear Algebra with Applications",    "units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B with grade of C or better." },
+          { "id": "MATH 4B",   "name": "Differential Equations",              "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 4A with grade of C or better." },
+          { "id": "MATH 6A",   "name": "Vector Calculus with Applications",   "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B." },
+          { "id": "MATH 6B",   "name": "Linear Algebra and ODEs",             "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B." },
+          { "id": "PHYS 7A",   "name": "Physics: Mechanics and Thermodynamics","units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A (may be concurrent)." },
+          { "id": "PHYS 7B",   "name": "Physics: Waves, Optics, E&M",         "units": 4, "prereqs": ["PHYS 7A","MATH 3B"], "prereqText": "Physics 7A; Math 3B (may be concurrent)." },
+          { "id": "PHYS 7C",   "name": "Physics: Electricity and Magnetism",  "units": 4, "prereqs": ["PHYS 7B","MATH 4A"], "prereqText": "Physics 7B; Math 4A (may be concurrent)." },
+          { "id": "PHYS 7D",   "name": "Physics: Waves and Modern Physics",   "units": 3, "prereqs": ["PHYS 7C"], "prereqText": "Physics 7C." },
+          { "id": "ECE 3",     "name": "Introduction to Signal Processing with Python", "units": 4, "prereqs": [], "prereqText": "Open to EE and CE majors." },
+          { "id": "ECE 5",     "name": "Introduction to Electrical Engineering","units": 4, "prereqs": [], "prereqText": "Open only to Electrical Engineering and Computer Engineering majors." },
+          { "id": "ECE 6",     "name": "Electronic and Photonic Systems",     "units": 4, "prereqs": ["ECE 5"], "prereqText": "ECE 5; open to EE and CE majors." },
+          { "id": "ECE 130A",  "name": "Signal Representation and Processing I","units": 4, "prereqs": ["MATH 4B"], "prereqText": "Mathematics 4B or 5A with minimum grade of C; open to EE and CE majors only." },
+          { "id": "ECE 130B",  "name": "Signal Representation and Processing II","units": 4, "prereqs": ["ECE 130A"], "prereqText": "ECE 130A with minimum grade of C-; open to EE and CE majors only." },
+          { "id": "ECE 139",   "name": "Probability and Statistical Models",  "units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B; open to EE and CE majors." },
+          { "id": "CMPSC 9",   "name": "Intermediate Python",                 "units": 4, "prereqs": ["CMPSC 8"], "prereqText": "CMPSC 8 or ENGR 3 or ECE 3 with grade of C or better." }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required",
+        "courses": [
+          { "id": "ECE 153A", "name": "Hardware/Software Interface",          "units": 4, "prereqs": ["ECE 130A","ECE 6"], "prereqText": "ECE 130A; ECE 6." },
+          { "id": "ECE 153B", "name": "Sensor and Peripheral Interface",      "units": 4, "prereqs": ["ECE 130A","ECE 6"], "prereqText": "ECE 130A; ECE 6." },
+          { "id": "ECE 188",  "name": "Senior Capstone Design Project",       "units": 9, "prereqs": ["ECE 153A"], "prereqText": "ECE 153A or ECE 153B (may be concurrent with ECE 188A)." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "description": "9 ECE elective courses; must include a depth sequence of ≥4 courses",
+        "required": 5,
+        "courses": [
+          { "id": "ECE 130B", "name": "Signal Representation and Processing II","units": 4, "prereqs": ["ECE 130A"], "prereqText": "ECE 130A." }
+        ]
+      }
+    }
+  },
+
+  "stats_bs": {
+    "id": "stats_bs",
+    "name": "Statistics and Data Science B.S.",
+    "degree": "B.S.",
+    "department": "Statistics and Applied Probability",
+    "browseDeptCodes": ["PSTAT", "MATH"],
+    "sections": {
+      "preparationForMajor": {
+        "name": "Preparation for the Major",
+        "description": "All required. Grade of C or better, min 2.5 UC GPA for major admission.",
+        "courses": [
+          { "id": "MATH 3A",   "name": "Calculus, First Course",              "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",   "name": "Calculus, Second Course",             "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "MATH 4A",   "name": "Linear Algebra with Applications",    "units": 4, "prereqs": ["MATH 3B"], "prereqText": "Math 3B with grade of C or better." },
+          { "id": "MATH 4B",   "name": "Differential Equations",              "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 4A with grade of C or better." },
+          { "id": "MATH 6A",   "name": "Vector Calculus with Applications",   "units": 4, "prereqs": ["MATH 4B"], "prereqText": "Math 4A and 4B." },
+          { "id": "PSTAT 10",  "name": "Principles of Data Science",          "units": 5, "prereqs": ["MATH 3B"], "prereqText": "Math 2B or 3B with minimum grade of C or better." },
+          { "id": "CMPSC 8",   "name": "Foundations of Data Science",         "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CMPSC 9",   "name": "Intermediate Python",                 "units": 4, "prereqs": ["CMPSC 8"], "prereqText": "CMPSC 8 or ENGR 3 or ECE 3 with grade of C or better." }
+        ]
+      },
+      "upperDivRequired": {
+        "name": "Upper-Division Required",
+        "courses": [
+          { "id": "PSTAT 120A","name": "Probability and Statistics I",        "units": 4, "prereqs": ["MATH 4A"], "prereqText": "Math 3C or 4A or 4AI or 6A completed with minimum grade of C or better." },
+          { "id": "PSTAT 120B","name": "Probability and Statistics II",       "units": 4, "prereqs": ["PSTAT 120A"], "prereqText": "PSTAT 120A with grade of C or better." },
+          { "id": "PSTAT 122", "name": "Design and Analysis of Experiments",  "units": 4, "prereqs": ["PSTAT 10","PSTAT 120B"], "prereqText": "PSTAT 10 and PSTAT 120B both with minimum grade of C or better." },
+          { "id": "PSTAT 126", "name": "Regression Analysis",                 "units": 4, "prereqs": ["PSTAT 10","PSTAT 120B"], "prereqText": "PSTAT 10 and PSTAT 120B both with minimum grade of C or better." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives (24 units from approved list)",
+        "required": 6,
+        "courses": [
+          { "id": "PSTAT 100", "name": "Data Science Concepts and Analysis",  "units": 4, "prereqs": ["PSTAT 120A","CMPSC 9","MATH 4A"], "prereqText": "PSTAT 120A; CS 9 or CS 16; and Math 4A, all with letter grade C or better." },
+          { "id": "PSTAT 105", "name": "Introduction to Non-parametric Methods","units": 4, "prereqs": ["PSTAT 10","PSTAT 120B"], "prereqText": "PSTAT 10 and PSTAT 120B both with minimum grade of C or better." },
+          { "id": "PSTAT 115", "name": "Bayesian Data Analysis",              "units": 4, "prereqs": ["PSTAT 126"], "prereqText": "PSTAT 126 with minimum grade of C." },
+          { "id": "PSTAT 127", "name": "Advanced Statistical Models",         "units": 4, "prereqs": ["PSTAT 126"], "prereqText": "PSTAT 126 with minimum grade of C or better." },
+          { "id": "PSTAT 130A","name": "Mathematical Statistics I",           "units": 4, "prereqs": ["PSTAT 120B","MATH 4A"], "prereqText": "PSTAT 120B; Math 4A." },
+          { "id": "PSTAT 131", "name": "Statistical Machine Learning",        "units": 4, "prereqs": ["PSTAT 120A","PSTAT 120B","PSTAT 126"], "prereqText": "PSTAT 120A-B and PSTAT 126 with minimum grade of C or better." },
+          { "id": "PSTAT 132", "name": "Applied Statistics",                  "units": 4, "prereqs": ["PSTAT 120B"], "prereqText": "PSTAT 120B with minimum grade of C." },
+          { "id": "PSTAT 134", "name": "Statistical Data Science",           "units": 4, "prereqs": ["PSTAT 131","CMPSC 9"], "prereqText": "PSTAT 131 or PSTAT 231 or CS 165B; and CS 9 (preferred) or CS 16." }
+        ]
+      }
+    }
+  },
+
+  "film_ba": {
+    "id": "film_ba",
+    "name": "Film and Media Studies B.A.",
+    "degree": "B.A.",
+    "department": "Film and Media Studies",
+    "browseDeptCodes": ["FAMST"],
+    "sections": {
+      "preMajor": {
+        "name": "Pre-Major",
+        "description": "All 3 required. No grade below C, min 2.0 GPA for major admission.",
+        "courses": [
+          { "id": "FAMST 46", "name": "Introduction to Cinema",   "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "FAMST 70", "name": "Media Criticism",          "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "FAMST 96", "name": "Advanced Film Analysis",   "units": 5, "prereqs": ["FAMST 46","FAMST 70"], "prereqText": "Film and Media Studies 46 and 70 with minimum grade of C." }
+        ]
+      },
+      "upperDivElectives": {
+        "name": "Upper-Division Electives",
+        "description": "Upper-division FAMST courses required. Consult department for current offerings.",
+        "required": 8,
+        "courses": [
+          { "id": "FAMST 100","name": "Film Theory and Criticism",    "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 101","name": "American Cinema",              "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 104","name": "Production Technology",        "units": 5, "prereqs": ["FAMST 46"], "prereqText": "Film and Media Studies 46; open to film and media majors only." },
+          { "id": "FAMST 110","name": "Genre Studies",                "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 120","name": "Gender and Film",              "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 130","name": "Race and Media",               "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 140","name": "Digital Media Production",     "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." },
+          { "id": "FAMST 150","name": "Documentary Film",             "units": 4, "prereqs": ["FAMST 96"], "prereqText": "Film and Media Studies 96." }
+        ]
+      }
+    }
+  },
+
+  "envst_bs": {
+    "id": "envst_bs",
+    "name": "Environmental Studies B.S.",
+    "degree": "B.S.",
+    "department": "Environmental Studies",
+    "browseDeptCodes": ["ENV S"],
+    "sections": {
+      "preparationForMajor": {
+        "name": "Lower Division / Preparation for the Major",
+        "description": "B.S. requires full year of biology, chemistry, and physics in addition to core ENV S courses.",
+        "courses": [
+          { "id": "ENV S 1",  "name": "The Environment and Society",          "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "ENV S 2",  "name": "Environmental Science: Ecology",       "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "ENV S 3",  "name": "Introduction to Social and Cultural Environments", "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "ENV S 40", "name": "Critical Thinking and the Environment","units": 5, "prereqs": ["ENV S 1"], "prereqText": "Environmental Studies 1 or 2 or 3." },
+          { "id": "ECON 1",   "name": "Principles of Microeconomics",         "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3A",  "name": "Calculus, First Course",               "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "MATH 3B",  "name": "Calculus, Second Course",              "units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A with grade of C or better." },
+          { "id": "PSTAT 5A", "name": "Understanding Data (Statistics)",      "units": 5, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1A",  "name": "General Chemistry I",                  "units": 4, "prereqs": [], "prereqText": null },
+          { "id": "CHEM 1B",  "name": "General Chemistry II",                 "units": 3, "prereqs": ["CHEM 1A"], "prereqText": "CHEM 1A with minimum grade of C-." },
+          { "id": "MCDB 1A",  "name": "Molecules, Cells, and Organisms I",   "units": 4, "prereqs": ["CHEM 1A"], "prereqText": "Chemistry 1A-B-C with grade of C- or better (1C may be concurrent)." },
+          { "id": "PHYS 7A",  "name": "Physics: Mechanics and Thermodynamics","units": 4, "prereqs": ["MATH 3A"], "prereqText": "Math 3A (may be concurrent)." }
+        ]
+      },
+      "upperDivAreaA": {
+        "name": "Upper-Division Area A (Required ES Courses)",
+        "description": "Required upper-division ES courses plus one statistics/modeling course",
+        "courses": [
+          { "id": "ENV S 100","name": "Environmental Policy and Law",        "units": 4, "prereqs": ["ENV S 1"], "prereqText": "Upper-division standing; one lower-division ENV S course." },
+          { "id": "ENV S 101","name": "Environmental Economics",             "units": 4, "prereqs": ["ENV S 1","ECON 1"], "prereqText": "Upper-division standing; ENV S 1 or 2 or 3; ECON 1." },
+          { "id": "ENV S 110","name": "Conservation Biology",               "units": 4, "prereqs": ["ENV S 2"], "prereqText": "Upper-division standing; ENV S 2 or equivalent biology course." }
+        ]
+      },
+      "upperDivAreaB": {
+        "name": "Upper-Division Area B (ES Electives — 32 units)",
+        "description": "20 units from Area B-1 (STEM-focused) + 12 units from broader ES electives",
+        "required": 8,
+        "courses": [
+          { "id": "ENV S 115","name": "Renewable Energy Policy",            "units": 4, "prereqs": ["ENV S 1"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 120","name": "Environmental Justice",              "units": 4, "prereqs": ["ENV S 1"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 125","name": "Climate Change Science",             "units": 4, "prereqs": ["ENV S 2","ENV S 40"], "prereqText": "Upper-division standing; ENV S 2 or equivalent." },
+          { "id": "ENV S 130","name": "Environmental Law",                  "units": 4, "prereqs": ["ENV S 100"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 135","name": "Water Resources",                    "units": 4, "prereqs": ["ENV S 2"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 140","name": "Sustainable Development",            "units": 4, "prereqs": ["ENV S 1"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 150","name": "Environmental Communication",        "units": 4, "prereqs": ["ENV S 1"], "prereqText": "Upper-division standing." },
+          { "id": "ENV S 160","name": "Environmental Capstone",             "units": 4, "prereqs": ["ENV S 100"], "prereqText": "Upper-division standing; ENV S 100." }
+        ]
+      }
+    }
+  }
+}

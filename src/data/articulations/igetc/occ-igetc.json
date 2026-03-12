@@ -1,0 +1,14 @@
+[
+  { "source_course_code": "ENGL A100", "igetc_area": "1A" },
+  { "source_course_code": "PHIL A100", "igetc_area": "1B" },
+  { "source_course_code": "MATH 180", "igetc_area": "2" },
+  { "source_course_code": "ART A100", "igetc_area": "3A" },
+  { "source_course_code": "ENGL A120", "igetc_area": "3B" },
+  { "source_course_code": "PSY A100", "igetc_area": "4" },
+  { "source_course_code": "CHEM A180", "igetc_area": "5A" },
+  { "source_course_code": "CHEM A185L", "igetc_area": "5C" },
+  { "source_course_code": "BIO A100", "igetc_area": "5B" },
+  { "source_course_code": "BIO A100L", "igetc_area": "5C" },
+  { "source_course_code": "SPAN A100", "igetc_area": "6" },
+  { "source_course_code": "SOC A100", "igetc_area": "4" }
+]

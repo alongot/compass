@@ -1,0 +1,152 @@
+[
+  {
+    "source_course_code": "ENGL A100",
+    "source_course_title": "Composition and Reading",
+    "source_units": 3,
+    "target_course_id_clean": "WRIT 2",
+    "articulation_type": "equivalent",
+    "notes": "Satisfies UCSB writing requirement",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 180",
+    "source_course_title": "Calculus I",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3A",
+    "articulation_type": "equivalent",
+    "notes": "Differential calculus; limits, derivatives, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 185",
+    "source_course_title": "Calculus II",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3B",
+    "articulation_type": "equivalent",
+    "notes": "Integral calculus, techniques of integration, infinite series",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CS A150",
+    "source_course_title": "Introduction to Programming",
+    "source_units": 3,
+    "target_course_id_clean": "CMPSC 16",
+    "articulation_type": "equivalent",
+    "notes": "Problem-solving and programming fundamentals in C++",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIO A100",
+    "source_course_title": "General Biology I",
+    "source_units": 4,
+    "target_course_id_clean": "BIOL 20A",
+    "articulation_type": "equivalent",
+    "notes": "Cell structure, genetics, and evolution",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIO A101",
+    "source_course_title": "General Biology II",
+    "source_units": 4,
+    "target_course_id_clean": "BIOL 20B",
+    "articulation_type": "equivalent",
+    "notes": "Plant and animal form, physiology, and ecology",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM A180",
+    "source_course_title": "General Chemistry I",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1A",
+    "articulation_type": "equivalent",
+    "notes": "Atomic structure, bonding, stoichiometry, thermochemistry",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM A185",
+    "source_course_title": "General Chemistry II",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1B",
+    "articulation_type": "equivalent",
+    "notes": "Chemical equilibrium, acids and bases, electrochemistry",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS A185",
+    "source_course_title": "Physics for Scientists and Engineers I",
+    "source_units": 4,
+    "target_course_id_clean": "PHYS 6A",
+    "articulation_type": "equivalent",
+    "notes": "Calculus-based mechanics: kinematics, Newton's laws, energy, momentum",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS A186",
+    "source_course_title": "Physics for Scientists and Engineers II",
+    "source_units": 4,
+    "target_course_id_clean": "PHYS 6B",
+    "articulation_type": "equivalent",
+    "notes": "Electricity, magnetism, and waves",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON A100",
+    "source_course_title": "Principles of Microeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 1",
+    "articulation_type": "equivalent",
+    "notes": "Consumer and producer theory, market equilibrium, market structures",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON A200",
+    "source_course_title": "Principles of Macroeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 2",
+    "articulation_type": "equivalent",
+    "notes": "National income, unemployment, inflation, fiscal and monetary policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PSY A100",
+    "source_course_title": "Introduction to Psychology",
+    "source_units": 3,
+    "target_course_id_clean": "PSYCH 1",
+    "articulation_type": "equivalent",
+    "notes": "Survey of psychological theories, research methods, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "SOC A100",
+    "source_course_title": "Introduction to Sociology",
+    "source_units": 3,
+    "target_course_id_clean": "SOC 1",
+    "articulation_type": "equivalent",
+    "notes": "Sociological perspective, social structures, culture, and institutions",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH A220",
+    "source_course_title": "Finite Mathematics for Business and Social Science",
+    "source_units": 3,
+    "target_course_id_clean": "MATH 34A",
+    "articulation_type": "equivalent",
+    "notes": "Mathematics for business: matrices, linear programming, probability",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "source_course_code": "MATH 150",
+    "source_course_title": "Calculus I",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3A",
+    "articulation_type": "equivalent",
+    "notes": "Covers limits, derivatives, and introduction to integration",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 155",
+    "source_course_title": "Calculus II",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3B",
+    "articulation_type": "equivalent",
+    "notes": "Covers integration techniques, sequences, and series",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CS 110",
+    "source_course_title": "Introduction to Programming",
+    "source_units": 4,
+    "target_course_id_clean": "CMPSC 16",
+    "articulation_type": "equivalent",
+    "notes": "Introductory programming using C++",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 100",
+    "source_course_title": "Principles of Microeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 1",
+    "articulation_type": "equivalent",
+    "notes": "Microeconomic theory, supply and demand, market structures",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 101",
+    "source_course_title": "Principles of Macroeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 2",
+    "articulation_type": "equivalent",
+    "notes": "Macroeconomic theory, national income, monetary and fiscal policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIOL 100",
+    "source_course_title": "Cellular and Molecular Biology",
+    "source_units": 4,
+    "target_course_id_clean": "MCDB 1A",
+    "articulation_type": "equivalent",
+    "notes": "Cell structure, molecular biology, genetics fundamentals",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM 150",
+    "source_course_title": "General Chemistry I",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1A",
+    "articulation_type": "equivalent",
+    "notes": "Atomic structure, bonding, stoichiometry, states of matter",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS 121",
+    "source_course_title": "Physics for Scientists and Engineers I",
+    "source_units": 4,
+    "target_course_id_clean": "PHYS 1",
+    "articulation_type": "equivalent",
+    "notes": "Mechanics, kinematics, Newton's laws, energy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PSYCH 101",
+    "source_course_title": "Introduction to Psychology",
+    "source_units": 3,
+    "target_course_id_clean": "PSYCH 1",
+    "articulation_type": "equivalent",
+    "notes": "Survey of psychological theories, research methods, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "STAT 150",
+    "source_course_title": "Elementary Statistics",
+    "source_units": 4,
+    "target_course_id_clean": "PSTAT 5A",
+    "articulation_type": "equivalent",
+    "notes": "Descriptive statistics, probability, hypothesis testing",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  }
+]

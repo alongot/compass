@@ -1,0 +1,73 @@
+Project Structure:
+
+Compass/
+├── src/
+│   ├── components/
+│   │   ├── CourseCard.jsx          # Individual course card component
+│   │   ├── SearchBar.jsx           # Search input component
+│   │   ├── FilterPanel.jsx         # Department/difficulty/sort filters
+│   │   ├── Header.jsx              # App header with branding
+│   │   └── Footer.jsx              # App footer
+│   │
+│   ├── data/
+│   │   ├── courseData.js           # Course data array (extract from component)
+│   │   └── courseDataLoader.js     # Future: API calls or CSV loading
+│   │
+│   ├── utils/
+│   │   ├── difficultyColors.js     # Color scheme utility
+│   │   ├── sortHelpers.js          # Sorting logic
+│   │   └── filterHelpers.js        # Filter logic
+│   │
+│   ├── styles/
+│   │   ├── theme.js                # Centralized theme colors/spacing
+│   │   └── globalStyles.css        # Global CSS if needed
+│   │
+│   ├── hooks/
+│   │   └── useCourseFilters.js     # Custom hook for filter logic
+│   │
+│   ├── App.jsx                     # Main app wrapper
+│   ├── Compass.jsx                 # Main Compass component
+│   └── main.jsx                    # Entry point
+│
+├── public/
+│   ├── index.html                  # HTML entry point
+│   ├── favicon.ico                 # Favicon
+│   └── assets/
+│       └── images/                 # Static images
+│
+├── config/
+│   └── constants.js                # App-wide constants
+│
+├── tests/
+│   ├── components/
+│   └── utils/
+│
+├── .gitignore
+├── package.json
+├── vite.config.js (or webpack/CRA config)
+├── README.md
+└── ROADMAP.md                      # (existing)
+
+Current Files:
+--------------
+App.jsx and Compass.jsx can stay at root for now, but should eventually move to src/
+
+Immediate Priorities:
+--------------------
+1. src/ - All source code should live here
+2. public/ - HTML entry point and static assets
+3. package.json - Dependencies (React, ReactDOM, Vite/webpack)
+4. Config files - Build tooling configuration
+
+Refactoring Opportunities:
+-------------------------
+- Extract CourseCard into its own component (currently 158 lines inside Compass.jsx)
+- Move the embedded courseData array to a separate data file
+- Extract the getDifficultyColor utility function
+- Split filters/search into reusable components
+
+Data Scaling:
+------------
+- Currently has hardcoded data for ECON & WRIT courses
+- data/ directory prepares for loading additional departments
+- Could add JSON/CSV import or API integration later

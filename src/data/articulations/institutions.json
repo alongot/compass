@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Santa Barbara City College",
+    "short_name": "SBCC",
+    "institution_type": "community_college",
+    "assist_org_id": "92",
+    "city": "Santa Barbara",
+    "state": "CA"
+  },
+  {
+    "name": "Santa Monica College",
+    "short_name": "SMC",
+    "institution_type": "community_college",
+    "assist_org_id": "137",
+    "city": "Santa Monica",
+    "state": "CA"
+  },
+  {
+    "name": "De Anza College",
+    "short_name": "De Anza",
+    "institution_type": "community_college",
+    "assist_org_id": "113",
+    "city": "Cupertino",
+    "state": "CA"
+  },
+  {
+    "name": "Orange Coast College",
+    "short_name": "OCC",
+    "institution_type": "community_college",
+    "assist_org_id": "110",
+    "city": "Costa Mesa",
+    "state": "CA"
+  },
+  {
+    "name": "Diablo Valley College",
+    "short_name": "DVC",
+    "institution_type": "community_college",
+    "assist_org_id": "57",
+    "city": "Pleasant Hill",
+    "state": "CA"
+  },
+  {
+    "name": "Foothill College",
+    "short_name": "Foothill",
+    "institution_type": "community_college",
+    "assist_org_id": "65",
+    "city": "Los Altos Hills",
+    "state": "CA"
+  },
+  {
+    "name": "Pasadena City College",
+    "short_name": "PCC",
+    "institution_type": "community_college",
+    "assist_org_id": "120",
+    "city": "Pasadena",
+    "state": "CA"
+  },
+  {
+    "name": "Irvine Valley College",
+    "short_name": "IVC",
+    "institution_type": "community_college",
+    "assist_org_id": "83",
+    "city": "Irvine",
+    "state": "CA"
+  },
+  {
+    "name": "College of San Mateo",
+    "short_name": "CSM",
+    "institution_type": "community_college",
+    "assist_org_id": "104",
+    "city": "San Mateo",
+    "state": "CA"
+  },
+  {
+    "name": "Laney College",
+    "short_name": "Laney",
+    "institution_type": "community_college",
+    "assist_org_id": "88",
+    "city": "Oakland",
+    "state": "CA"
+  }
+]

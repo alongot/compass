@@ -1,0 +1,102 @@
+[
+  {
+    "source_course_code": "MATH 1A",
+    "source_course_title": "Calculus I",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3A",
+    "articulation_type": "equivalent",
+    "notes": "Limits, derivatives, and applications of differentiation",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 1B",
+    "source_course_title": "Calculus II",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3B",
+    "articulation_type": "equivalent",
+    "notes": "Techniques of integration, series, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CIS 22A",
+    "source_course_title": "C++ Programming",
+    "source_units": 4.5,
+    "target_course_id_clean": "CMPSC 16",
+    "articulation_type": "equivalent",
+    "notes": "Problem-solving and programming in C++",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 1A",
+    "source_course_title": "Microeconomics",
+    "source_units": 5,
+    "target_course_id_clean": "ECON 1",
+    "articulation_type": "equivalent",
+    "notes": "Microeconomic theory: consumer choice, firm behavior, market structures",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 1B",
+    "source_course_title": "Macroeconomics",
+    "source_units": 5,
+    "target_course_id_clean": "ECON 2",
+    "articulation_type": "equivalent",
+    "notes": "Macroeconomic theory: GDP, inflation, unemployment, policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIOL 6A",
+    "source_course_title": "Organismal Biology",
+    "source_units": 5,
+    "target_course_id_clean": "MCDB 1A",
+    "articulation_type": "equivalent",
+    "notes": "Cell biology, genetics, and organismal diversity",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM 1A",
+    "source_course_title": "General Chemistry I",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1A",
+    "articulation_type": "equivalent",
+    "notes": "Atomic structure, chemical bonding, thermochemistry",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS 4A",
+    "source_course_title": "General Physics",
+    "source_units": 5,
+    "target_course_id_clean": "PHYS 1",
+    "articulation_type": "equivalent",
+    "notes": "Calculus-based mechanics and wave motion",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PSYCH 1",
+    "source_course_title": "Introduction to Psychology",
+    "source_units": 5,
+    "target_course_id_clean": "PSYCH 1",
+    "articulation_type": "equivalent",
+    "notes": "Biological bases of behavior, learning, cognition, social psychology",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 10",
+    "source_course_title": "Elementary Statistics",
+    "source_units": 5,
+    "target_course_id_clean": "PSTAT 5A",
+    "articulation_type": "equivalent",
+    "notes": "Statistical reasoning, probability distributions, inference",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  }
+]

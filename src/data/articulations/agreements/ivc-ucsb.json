@@ -1,0 +1,152 @@
+[
+  {
+    "source_course_code": "ENGL 1",
+    "source_course_title": "Composition and Reading",
+    "source_units": 3,
+    "target_course_id_clean": "WRIT 2",
+    "articulation_type": "equivalent",
+    "notes": "Satisfies UCSB writing requirement",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 3A",
+    "source_course_title": "Calculus I",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3A",
+    "articulation_type": "equivalent",
+    "notes": "Limits, derivatives, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 3B",
+    "source_course_title": "Calculus II",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3B",
+    "articulation_type": "equivalent",
+    "notes": "Integration techniques, series, and applications",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CIS 12",
+    "source_course_title": "Introduction to Computer Science",
+    "source_units": 4,
+    "target_course_id_clean": "CMPSC 16",
+    "articulation_type": "equivalent",
+    "notes": "Programming fundamentals using C++",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIOL 3",
+    "source_course_title": "Cell Biology and Evolution",
+    "source_units": 4,
+    "target_course_id_clean": "BIOL 20A",
+    "articulation_type": "equivalent",
+    "notes": "Cell structure, function, and evolution",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM 1A",
+    "source_course_title": "General Chemistry I",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1A",
+    "articulation_type": "equivalent",
+    "notes": "Atomic structure, bonding, and stoichiometry",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM 1B",
+    "source_course_title": "General Chemistry II",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1B",
+    "articulation_type": "equivalent",
+    "notes": "Thermodynamics, kinetics, equilibrium",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS 4A",
+    "source_course_title": "Physics for Scientists and Engineers I",
+    "source_units": 4,
+    "target_course_id_clean": "PHYS 6A",
+    "articulation_type": "equivalent",
+    "notes": "Mechanics and kinematics",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 1",
+    "source_course_title": "Principles of Microeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 1",
+    "articulation_type": "equivalent",
+    "notes": "Microeconomic theory and market analysis",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 2",
+    "source_course_title": "Principles of Macroeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 2",
+    "articulation_type": "equivalent",
+    "notes": "National income, monetary and fiscal policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PSYC 1",
+    "source_course_title": "Introduction to Psychology",
+    "source_units": 3,
+    "target_course_id_clean": "PSYCH 1",
+    "articulation_type": "equivalent",
+    "notes": "Survey of psychological theories and research",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "SOCI 1",
+    "source_course_title": "Introduction to Sociology",
+    "source_units": 3,
+    "target_course_id_clean": "SOC 1",
+    "articulation_type": "equivalent",
+    "notes": "Sociological theory and social institutions",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 8",
+    "source_course_title": "Discrete Mathematics",
+    "source_units": 3,
+    "target_course_id_clean": "MATH 8",
+    "articulation_type": "equivalent",
+    "notes": "Logic, sets, combinatorics, and graph theory",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "STAT 10",
+    "source_course_title": "Introduction to Statistics",
+    "source_units": 3,
+    "target_course_id_clean": "PSTAT 5A",
+    "articulation_type": "equivalent",
+    "notes": "Descriptive and inferential statistics",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ENVS 1",
+    "source_course_title": "Introduction to Environmental Science",
+    "source_units": 3,
+    "target_course_id_clean": "ENVS 1",
+    "articulation_type": "equivalent",
+    "notes": "Ecosystems, sustainability, and environmental policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  }
+]

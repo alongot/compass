@@ -1,0 +1,102 @@
+[
+  {
+    "source_course_code": "MATH 7",
+    "source_course_title": "Calculus I",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3A",
+    "articulation_type": "equivalent",
+    "notes": "Differential calculus of single-variable functions",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "MATH 8",
+    "source_course_title": "Calculus II",
+    "source_units": 5,
+    "target_course_id_clean": "MATH 3B",
+    "articulation_type": "equivalent",
+    "notes": "Integral calculus and infinite series",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CS 55",
+    "source_course_title": "Java Programming",
+    "source_units": 3,
+    "target_course_id_clean": "CMPSC 16",
+    "articulation_type": "equivalent",
+    "notes": "Object-oriented programming using Java",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 1",
+    "source_course_title": "Principles of Economics I - Microeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 1",
+    "articulation_type": "equivalent",
+    "notes": "Consumer and producer theory, market equilibrium",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "ECON 2",
+    "source_course_title": "Principles of Economics II - Macroeconomics",
+    "source_units": 3,
+    "target_course_id_clean": "ECON 2",
+    "articulation_type": "equivalent",
+    "notes": "National income, business cycles, monetary policy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "BIOL 21",
+    "source_course_title": "Cell Biology and Evolution",
+    "source_units": 4,
+    "target_course_id_clean": "MCDB 1A",
+    "articulation_type": "equivalent",
+    "notes": "Cell structure, function, and evolutionary biology",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "CHEM 11",
+    "source_course_title": "General Chemistry I",
+    "source_units": 5,
+    "target_course_id_clean": "CHEM 1A",
+    "articulation_type": "equivalent",
+    "notes": "Fundamental chemistry principles: structure, bonding, reactions",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PHYS 21",
+    "source_course_title": "Mechanics",
+    "source_units": 4,
+    "target_course_id_clean": "PHYS 1",
+    "articulation_type": "equivalent",
+    "notes": "Classical mechanics including kinematics, dynamics, and energy",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "PSYCH 1",
+    "source_course_title": "Introduction to Psychology",
+    "source_units": 3,
+    "target_course_id_clean": "PSYCH 1",
+    "articulation_type": "equivalent",
+    "notes": "Overview of psychology: behavior, cognition, development",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  },
+  {
+    "source_course_code": "STATS 54",
+    "source_course_title": "Introduction to Statistics",
+    "source_units": 3,
+    "target_course_id_clean": "PSTAT 5A",
+    "articulation_type": "equivalent",
+    "notes": "Probability, sampling, regression, and inference",
+    "effective_start_date": "2024-01-01",
+    "effective_end_date": null
+  }
+]
